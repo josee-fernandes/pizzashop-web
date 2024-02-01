@@ -30,14 +30,14 @@ export function DayOrdersAmountCard() {
                   <span className="text-emerald-500 dark:text-emerald-400">
                     +{dayOrdersAmount.diffFromYesterday}%
                   </span>{' '}
-                  em relação ao mês passado
+                  em relação a ontem
                 </>
               ) : (
                 <>
                   <span className="text-rose-500 dark:text-rose-400">
                     {dayOrdersAmount.diffFromYesterday}%
                   </span>{' '}
-                  em relação ao mês passado
+                  em relação a ontem
                 </>
               )}
             </p>
